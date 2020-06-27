@@ -2,8 +2,8 @@ function getLink() {
 	var paymentStr = "upi://pay?pa=" + $('#pa').val() +
 			"@" + $('#psp').val() +
 			"&pn=" + $('#pn').val() +
-			"&tn=" + $('#tn').val() +
-			"&am=" + $('#am').val();
+			"&am=" + $('#am').val() +
+	    		"&tn=" + "#fingerTips";;
 	if ($('#am').val() !== '') {
 		$('#paylink').find("span").html("Pay " + $('#pn').val() + " using UPI");
 		$('#paylink').attr("href", encodeURI(paymentStr));
