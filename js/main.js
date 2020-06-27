@@ -82,7 +82,7 @@ function printQRCode() {
 	window.print();
 }
 function redirect() {
-	window.location = "upi://pay?pa=sibincbaby@icici&pn=pqr&tr=abc&am=10";
+	window.location = "upi://pay?pa=sibi@paytm&pn=pqr&tr=abc&am=10";
 }
 
 /* TODO -- Find a way to send to WA. Custom URL Scheme sends as text
