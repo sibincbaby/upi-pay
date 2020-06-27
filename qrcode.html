@@ -41,23 +41,13 @@
 		<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cc-navbar-collapse" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="index.html" class="navbar-brand">#CashlessConsumer</a>
+					<a href="index.html" class="navbar-brand">#fingerTips</a>
 				</div>
 				<div class="collapse navbar-collapse"  id="cc-navbar-collapse">
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="./index.html">Home</a></li>
-						<li><a href="./upi-setup.html">How to Install</a></li>
-						<li><a href="./applist.html">UPI Apps</a></li>
-						<li class="active"><a href="./qrcode.html">Get QR Code</a></li>
-						<li><a href="./about.html">About</a></li>
-						<li><a href="./askus.html">Ask Us</a></li>
-					</ul>
+										<ul class="nav navbar-nav navbar-left">
+											<li><a href="./index.html">Home</a></li>
+											<li><a href="./qrcode.html">Get QR Code</a></li>
+										</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#"><select id="lang" onchange="updateText()">
 							<option value="en">English</option>
@@ -100,15 +90,15 @@
 									<div class="form-group">
 										<label for="pn" data-i18n="upiqrc-lbl-name">Enter your name</label>
 										<div class="input-group">
-											<input class="form-control" id="pn" placeholder="Your name" value="Srikanth"/>
+											<input class="form-control" id="pn" placeholder="Your name" value="Sibi"/>
 										</div>
 									</div>
 									<div class="form-group">
 										<label for="pa" data-i18n="upiqrc-lbl-vpa">Enter your VPA</label>
 										<div class="input-group">
-											<input class="form-control" id="pa" aria-label="Your VPA identifier" placeholder="Your VPA identifier" value="cashlessconsumer"/>
+											<input class="form-control" id="pa" aria-label="Your VPA identifier" placeholder="Your VPA identifier" value="sibi"/>
 											<span class="input-group-addon">@</span>
-											<input class="form-control" id="psp" list="psplist" aria-label="Your VPA handle" placeholder="Your VPA handle" value="cnrb"/>
+											<input class="form-control" id="psp" list="psplist" aria-label="Your VPA handle" placeholder="Your VPA handle" value="paytm"/>
 										</div>
 									</div>
 									<datalist id="psplist">
@@ -134,6 +124,7 @@
 										</option><option value="kvb">
 										</option><option value="mahab">
 										</option><option value="obc">
+										</option><option value="paytm">
 										</option><option value="pnb">
 										</option><option value="pockets">
 										</option><option value="rbl">
@@ -167,7 +158,7 @@
 							</div>
 							<div class="col-md-3">
 								<p><a class="btn btn-primary" style="display:none" id="DownloadQRCode" onclick="downloadQRCode()"><i class="fa fa-download"></i> <span data-i18n="upiqrc-btn-download">Download QRCode</span></a></p>
-								<p><a class="btn btn-primary" style="display:none" id="PrintQRCode" onclick="redirect()"><i class="fa fa-print"></i> <span data-i18n="upiqrc-btn-print">Print QRCode</span></a></p>
+								<p><a class="btn btn-primary" style="display:none" id="PrintQRCode" onclick="printQRCode()"><i class="fa fa-print"></i> <span data-i18n="upiqrc-btn-print">Print QRCode</span></a></p>
 								<p><a class="btn btn-primary" style="display:none" id="paylink" href=""><i class="fa fa-money"></i> <span data-i18n="upiqrc-btn-pay"></span></a></p>
 								<p><img src="img/UPILogo.jpg" id="upifulllogo" width="50%" height="30%" hidden="true"/></p>
 							</div>
@@ -182,7 +173,7 @@
 	</article>
 	<footer>
 		<div class="container">
-			<p class="copyright"><span data-i18n="upiqrc-footer">#CashlessConsumer Initiative. Licensed under </span><a href="https://creativecommons.org/licenses/by-sa/4.0/"><span data-i18n="upiqrc-license">CC-BY-SA 4.0</span></a> - <a href="http://github.com/CashlessConsumer/CashlessConsumer"><span data-i18n="upiqrc-codelink">Code</span></a></p>
+			<p class="copyright"><span data-i18n="upiqrc-footer">#fingerTips Initiative . Licensed under </span><a href="https://creativecommons.org/licenses/by-sa/4.0/"><span data-i18n="upiqrc-license">CC-BY-SA 4.0</span></a> - <a href="https://sibincbaby.github.io/upi-pay/qrcode.html"><span data-i18n="upiqrc-codelink">Code</span></a></p>
 		</div>
 	</footer>
 <!-- End Document –––––––––––––––––––––––––––––––––––––––––––––––––– -->
